@@ -1,3 +1,5 @@
+// Seção de contato com a administração do sistema:
+
 export default function ContactSection(){
     return(
     <section id="contact">
@@ -18,3 +20,5 @@ export default function ContactSection(){
     </section>
     );
 }
+
+// Em desenvolvimento...

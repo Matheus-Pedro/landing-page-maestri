@@ -1,4 +1,6 @@
-const featureData = [
+// Arquivo de data para armazenar listas e objetos:
+
+export const featureData = [
 {
     id:0,
     h2: "Transforme 2024 no Ano da Sua Grande Virada com a Maestri.Edu",
@@ -34,6 +36,4 @@ const featureData = [
     h2:"Reserve Sua Vaga e Faça de 2024 um Marco na Sua Vida",
     p:"As vagas para esta jornada transformadora são limitadas. Garanta a sua hoje e inicie 2024 com o pé direito rumo ao sucesso!"
 }
-]
-
-export default featureData;
+];

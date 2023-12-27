@@ -1,3 +1,5 @@
+// Botão com a ação de inscrever-se:
+
 export default function ButtonCta(){
     return (
         <button>
@@ -5,3 +7,5 @@ export default function ButtonCta(){
         </button>
     );
 };
+
+// Em desenvolvimento...

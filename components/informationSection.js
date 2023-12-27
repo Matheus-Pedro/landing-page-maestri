@@ -1,11 +1,13 @@
-import feature from "./data"
+// Adiciona todas as features de data, no Information section:
+
+import {featureData} from "./data"
 
 
 export default function InformationSection(){
-    const listFeatures = feature.map(feature =>
-        <div className="feature" key = {feature.id}>
-            <h2 >{feature.h2}</h2>
-            <p >{feature.p}</p>
+    const listFeatures = featureData.map(featureData =>
+        <div className="feature" key = {featureData.id}>
+            <h2 >{featureData.h2}</h2>
+            <p >{featureData.p}</p>
         </div>
       );
     return (
