@@ -1,6 +1,6 @@
 // Adiciona todas as features de data, no Information section:
 
-import {featureData} from "./data"
+import {featureData} from "./Data"
 
 
 export default function InformationSection(){

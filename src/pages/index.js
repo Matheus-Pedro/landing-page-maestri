@@ -1,16 +1,14 @@
 // Cria janela principal chamando alguns componentes:
 
-import Header from "../components/header";
-import Footer from "../components/footer";
-import InformationSection from "../components/informationSection";
-import ButtonCta from "../components/buttonCta";
-import ContactSection from "../components/contactSection";
-import Head from "../components/head";
-
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import InformationSection from "@/components/InformationSection";
+import ButtonCta from "@/components/ButtonCta";
+import ContactSection from "@/components/ContactSection";
+import Head from "@/components/Head";
 export default function App(){
 
-  return (
-    
+  return (    
     <div className="landing-page">
       <Head title="Home"/>
       <Header/>
@@ -24,4 +22,3 @@ export default function App(){
     </div>
   );
 };
-

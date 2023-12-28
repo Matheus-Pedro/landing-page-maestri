@@ -37,3 +37,19 @@ export const featureData = [
     p:"As vagas para esta jornada transformadora são limitadas. Garanta a sua hoje e inicie 2024 com o pé direito rumo ao sucesso!"
 }
 ];
+
+export const colors = {
+    primaryBlue: '#AFCAEB',
+    secondaryGold: '#DAA520', // Dourado Claro
+    complementaryBlue: '#4A90E2', // Azul Complementar
+    darkBlue: '#325A82',
+    lightBlue: '#D3E2F4',
+    midnightBlue: '#2C3E50',
+    softWhite: '#FAFAFA',
+    lightGray: '#DADFE1',
+    mediumGray: '#BDC3C7',
+    darkGray: '#7F8C8D',
+    accentRed: '#E74C3C',
+    accentGreen: '#2ECC71',
+  };
+  

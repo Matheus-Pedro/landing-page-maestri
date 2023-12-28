@@ -1,0 +1,15 @@
+.header {
+    text-align: center;
+    padding: 20px;
+    background-image: url("/background-image.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+.logo {
+    max-width: 300px;
+}
+
+.title {
+    color: blueviolet;
+}
