@@ -2,7 +2,7 @@
 .header {
     background: url("/background-image.jpg") center center/cover no-repeat;
     color: #FAFAFA;
-    padding: 3em;
+    padding: 6em;
   }
   
   .contentWrapper {
@@ -15,6 +15,7 @@
     text-align: left;
     display: flex;
     flex-direction: column;
+    border-radius: 100%;
   }
   
   .rightContent {
@@ -24,7 +25,8 @@
   }
   
   .logo {
-    height: auto;
+    height: 100%;
+    width: auto;
   }
   
   .title {
@@ -36,9 +38,10 @@
     margin-top: 1em;
     margin-bottom: -0.4em;
     text-align: start;
-    background: url("/texture.jpg") repeat;
     -webkit-background-clip: text;
     background-clip: text;
+    background-image: linear-gradient(to bottom, #dfd493, #f7df6f,#fdf3b5, #f8de69, #dcad37,  #ebc548, #f7df6f ,#ddae3a, #ebbf41);
+
   }
   
   .subTitle {
@@ -65,4 +68,24 @@
     justify-content: center;
     padding: 1em;
     
+  }
+/* Exemplo de um gradiente vertical de azul para verde */
+.gradiente {
+  background-image: linear-gradient(to bottom, #3498db, #2ecc71);
+  /* Adicione outras propriedades de estilo conforme necessário */
+  color: #fff; /* Cor do texto para garantir legibilidade */
+  padding: 20px; /* Espaçamento interno para melhorar a aparência */
+}
+
+
+  @media screen and (max-width: 700px) {   
+    .contentWrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .title{
+      font-size: 2.3em;
+    }
   }
