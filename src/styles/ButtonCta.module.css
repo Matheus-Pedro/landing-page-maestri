@@ -1,29 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 .buttonCta {
-    font-family: 'Roboto', sans-serif;
-    background-color: #4A90E2;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    background: url('/texture-blue-2.jpg') repeat; /* Substitua com o caminho da sua imagem de textura */
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 1em 2em;
     margin: 0;
-    font-size: 16px;
+    font-size: 1em;
     text-align: center;
     text-decoration: none;
     border: 1px solid #FAFAFA;
     color: #FAFAFA;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background 0.5s, color 1s, box-shadow 0.3s, border 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .buttonCta:hover {
-    background-color: #325A82;
+    background: url('/gold-texture.jpg') repeat; /* Substitua com o caminho da sua imagem de textura */
     color: #FAFAFA;
     border: 1px solid #FAFAFA;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2);
 }
 
 .buttonCta:active {
-    color: #F5F2E8;
-    background-color: #325A82;
-    border: 1px solid #F5F2E8;
+    box-shadow: none;
 }
-

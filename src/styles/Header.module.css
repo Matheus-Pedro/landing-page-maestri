@@ -1,15 +1,68 @@
+/* Header.module.css */
 .header {
-    text-align: center;
-    padding: 20px;
-    background-image: url("/background-image.jpg");
-    background-size: cover;
-    background-position: center;
+    background: url("/background-image.jpg") center center/cover no-repeat;
+    color: #FAFAFA;
+    padding: 3em;
   }
-
-.logo {
-    max-width: 300px;
-}
-
-.title {
-    color: blueviolet;
-}
+  
+  .contentWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .leftContent {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rightContent {
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .logo {
+    height: auto;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: transparent;
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-bottom: -0.4em;
+    text-align: start;
+    background: url("/texture.jpg") repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  
+  .subTitle {
+    font-size: 1.7em; /* Tamanho do subtitulo */
+    color: #FAFAFA;
+    font-family: 'Open Sans', sans-serif; /* Fonte do subtitulo */
+    font-weight: 400; /* Peso da fonte (400 é o padrão, você pode ajustar conforme necessário) */
+  }
+  
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+  }
+  
+  .icon {
+    font-size: 2em;
+    color: #4A90E2;
+    margin: 0 0.5em;
+  }
+  
+  .buttonCta {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    
+  }
