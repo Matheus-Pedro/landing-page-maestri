@@ -1,0 +1,41 @@
+
+
+.footer {
+    background-color: black;
+}
+
+.container {
+    padding: 3em;
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.socialMedia {
+    height: auto;
+    width: 22%;
+    margin: 0.2em;
+}
+
+.footerSection{
+    height: auto;
+    width: 10em;
+    margin: 1em;
+}
+
+.footerBottom {
+    margin: 0.5em;
+    font-size:small;
+    display: flex;
+    justify-content: space-between;
+}
